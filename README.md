@@ -135,8 +135,9 @@ if (tipoDeSuscripcion == "Free") {
 💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays u objetos y un solo condicional. 😏
 
 ------------
+
 #### Ciclos
-:tw-31-20e3: Responde las siguientes preguntas en la sección de comentarios:
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - ¿Qué es un ciclo?
 Un bucle que se repite de manera continua, hasta que la condicición especificada deje de cumplirse.
 
@@ -149,7 +150,7 @@ Es una bucle que se repite de manera infinita porque la condición que se usa si
 - ¿Puedo mezclar ciclos y condicionales?
 Si, ambos se pueden trabajar de manera alterna de ser necesario.
 
-:tw-32-20e3: Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
+2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
 
 ```javascript
 for (let i = 0; i < 5; i++) {
@@ -193,7 +194,8 @@ console.log(resultado);
 💡 Pista: puedes usar la función prompt de JavaScript.
 
 ------------
-####Listas
+
+#### Listas
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - ¿Qué es un array?
 Un objeto en el que se guardan otros valores.
