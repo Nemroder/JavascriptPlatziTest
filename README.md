@@ -1,6 +1,6 @@
 # Test JavaScript - Platzi
 #### Variables y operaciones
-:tw-31-20e3: Responde las siguientes preguntas en la sección de comentarios:
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - ¿Qué es una variable y para qué sirve?
 Hace referencia al lugar en memoria en el que se guarda un objeto, el cual se identifica con un nombre especifico.
 
@@ -18,7 +18,7 @@ Ambos se realizan con el operador de suma “+”, como lo muestra el siguiente 
 Sumar: 242 + 574
 Concatenar: “Hola” + “ mundo.” + “ A esto se le llama concatenar.”
 
-:tw-32-20e3: Determina el nombre y tipo de dato para almacenar en variables la siguiente información
+2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información
 - Nombre: String
 - Apellido: String
 - Nombre de usuario en Platzi: String
@@ -28,7 +28,7 @@ Concatenar: “Hola” + “ mundo.” + “ A esto se le llama concatenar.”
 - Dinero ahorrado: Number
 - Deudas: Number
 
-:tw-33-20e3: Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
+3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
 ```javascript
 let nombre= “Sergio”;
 let apellido=“Gutierrez”;
@@ -40,7 +40,7 @@ let dineroAhorrado= 100;
 let deudas= 10;
 ```
 
-:tw-34-20e3: Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
+4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
 
 ```javascript
 //Nombre
@@ -54,7 +54,7 @@ console.log (`Mi dinero ahorrado es  $("dinero real")`)
 ------------
 #### Funciones
 
-:tw-31-20e3: Responde las siguientes preguntas en la sección de comentarios:
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - ¿Qué es una función?
 Hace referencia a determinadas lineas de codigo que cumplen con tareas a realizar, que se ejecutan en base a unas condiciones.
 
@@ -64,7 +64,7 @@ Cuando necesito llevar a cabo una tarea en especial; por ejemplo un ciclo.
 - ¿Cuál es la diferencia entre parámetros y argumentos de una función?
  Los parametros hace referencia a las variables y argumentos al valor de esas variables.
 
-:tw-32-20e3: Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
+2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 
 ```javascript
 const name = "Juan David";
@@ -81,7 +81,7 @@ function (completeName, nickname) {
 ------------
 
 #### Condicionales
-:tw-31-20e3: Responde las siguientes preguntas en la sección de comentarios:
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - ¿Qué es un condicional?
 Son estructuras de control que evaluan parametros, para llevar tareas a cabo.
 
@@ -94,7 +94,7 @@ Mientras que else, if y else if se puede usar tanto como sea necesario, dando la
 - ¿Puedo combinar funciones y condicionales?
 Si, las funciones pueden encapsular condicionales.
 
-:tw-32-20e3: Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
+2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
 
 ```javascript
 const tipoDeSuscripcion = "Basic";
@@ -130,7 +130,7 @@ if (tipoDeSuscripcion == "Free") {
 }
 ```
 
-:tw-33-20e3: Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
+3️⃣ Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
 
 💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays u objetos y un solo condicional. 😏
 
@@ -172,7 +172,7 @@ while (i >=1){
 }
 
 ```
-:tw-33-20e3: Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.
+3️⃣ Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.
 ```javascript
 function suma() {
   let a = parseInt(prompt(`Escribe un numero`));
@@ -194,7 +194,7 @@ console.log(resultado);
 
 ------------
 ####Listas
-:tw-31-20e3: Responde las siguientes preguntas en la sección de comentarios:
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - ¿Qué es un array?
 Un objeto en el que se guardan otros valores.
 Es una estructura de colección de datos, que se escribe dentro de [...] separado por comas.
@@ -208,7 +208,7 @@ Los arrays se usan para poder acceder a estos por medio de su indice. Mientras q
 - ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
 Si se pueden mezclar arrays con objetos y viceversa.
 
-:tw-32-20e3:  Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
+2️⃣  Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 ```javascript
 let animal= ['leon', 'perro', 'gato'];
 
@@ -217,7 +217,7 @@ function getArray (){
 }
 getArray(animal)
 ```
-:tw-33-20e3:  Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
+3️⃣  Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
 ```javascript
 let estudiante = ['Juan', 'Pedro', 'Andrea'];
 
@@ -228,7 +228,7 @@ function getArray (estudiante){
 }
 getArray (estudiante);
 ```
-:tw-34-20e3:  Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+4️⃣  Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
 ```javascript
 let estudiante = {
     nombre: 'Sergio',
